@@ -1,0 +1,22 @@
+//mixin
+
+@use 'mixin';
+@mixin navbar-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    li{
+        display: inline-block;
+    }
+}
+
+
+//argumen untuk mixin
+
+@mixin flexbox-center(){
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}

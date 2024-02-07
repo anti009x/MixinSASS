@@ -1,20 +1,16 @@
-@use 'mixin';
 .header ul {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
-
 .header ul li {
   display: inline-block;
 }
-
 .header ul li {
   background-color: red;
   padding: 0.8em;
 }
-
 .header ul a {
   text-decoration: none;
   color: white;
@@ -26,31 +22,22 @@
   list-style: none;
   text-decoration: none;
 }
-
 .footer ul li {
   display: inline-block;
 }
-
 .footer ul li {
-  background-color: #2200ff;
+  background-color: rgb(34, 0, 255);
   padding: 0.8em;
 }
-
 .footer ul a {
   text-decoration: none;
   color: white;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   width: 600px;
   height: 800px;
   background-color: beige;
@@ -58,7 +45,6 @@
   margin: 0;
   margin: 4px auto;
 }
-
 .container .box {
   width: 80px;
   height: 80px;
@@ -66,4 +52,5 @@
   text-align: center;
   line-height: 60px;
 }
+
 /*# sourceMappingURL=main.css.map */
